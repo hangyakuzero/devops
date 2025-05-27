@@ -1,0 +1,4 @@
+task run(type: JavaExec) {
+main = 'com.example.App'
+classpath = sourceSets.main.runtimeClasspath
+}
