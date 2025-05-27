@@ -1,0 +1,18 @@
+---
+- name: Install curl on all servers
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Install curl on Debian/Ubuntu
+      apt:
+        name: curl
+        state: present
+        update_cache: yes
+      when: ansible_os_family == "Debian"
+
+    - name: Install curl on RHEL/CentOS
+      yum:
+        name: curl
+        state: present
+      when: ansible_os_family == "RedHat"
