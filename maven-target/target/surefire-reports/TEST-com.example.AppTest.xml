@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/hangyaku/Desktop/programs/devops/2nd/maven-target/target/surefire/surefirebooter726560626540956913.jar /Users/hangyaku/Desktop/programs/devops/2nd/maven-target/target/surefire 2025-05-27T21-04-25_554-jvmRun1 surefire16357123189646716876tmp surefire_08537189850216278878tmp"/>
+    <property name="sun.java.command" value="/Users/hangyaku/Desktop/programs/devops/2nd/maven-target/target/surefire/surefirebooter1129270412008634748.jar /Users/hangyaku/Desktop/programs/devops/2nd/maven-target/target/surefire 2025-05-28T02-05-54_859-jvmRun1 surefire1781655223290050098tmp surefire_01837970169682551617tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/hangyaku/Desktop/programs/devops/2nd/maven-target/target/test-classes:/Users/hangyaku/Desktop/programs/devops/2nd/maven-target/target/classes:/Users/hangyaku/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/hangyaku/Desktop/programs/devops/2nd/maven-target/target/surefire/surefirebooter726560626540956913.jar"/>
+    <property name="surefire.real.class.path" value="/Users/hangyaku/Desktop/programs/devops/2nd/maven-target/target/surefire/surefirebooter1129270412008634748.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2"/>
     <property name="user.name" value="hangyaku"/>
@@ -56,5 +56,5 @@
     <property name="java.class.version" value="67.0"/>
   </properties>
   <testcase name="testApp" classname="com.example.AppTest" time="0.001"/>
-  <testcase name="testAdd" classname="com.example.AppTest" time="0.001"/>
+  <testcase name="testAdd" classname="com.example.AppTest" time="0"/>
 </testsuite>

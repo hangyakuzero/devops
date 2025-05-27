@@ -1,0 +1,18 @@
+- name: Deploy App
+  hosts: localhost
+  become: false
+  connection: local
+
+  tasks:
+    - name: Copy the JAR file to the deploy directory
+      copy:
+        src: /Users/hangyaku/.jenkins/workspace/yeno/target/Artifact1-1.0-SNAPSHOT.jar
+        dest: /Users/hangyaku/Desktop/programs/Artifact1/target/Artifact1-1.0-SNAPSHOT.jar
+        mode: "0755"
+
+    - name: Restart the application
+      shell: >
+        nohup java -jar /Users/hangyaku/Desktop/programs/Artifact1/target/Artifact1-1.0-SNAPSHOT.jar
+        > /Users/hangyaku/Desktop/programs/Artifact1/app.log 2>&1 &
+      args:
+        executable: /bin/bash
