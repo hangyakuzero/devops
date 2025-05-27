@@ -1,0 +1,19 @@
+# Maven
+# Build your Java project and run tests with Apache Maven.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+trigger:
+  - master
+
+pool: yeno #your pool name
+
+steps:
+  - script: echo building maven
+    displayName: Building maven
+  - script: echo Creating the Artifact
+    displayName: Creating the Artifact
+  - script: echo Deploying to Azure app service
+    displayName: Deploying to Azure app service
+  - script: echo Deploying to Azure app service
+    displayName: Deploying the Artifact, simulation only
